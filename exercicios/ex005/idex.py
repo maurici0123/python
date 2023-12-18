@@ -1,8 +1,8 @@
-print('hello\033[1;36m world! \033[m')
+print('hello\033[1;31;107m world! \033[m')
 print()
 
 name = 'mau'
-print('o meu nome é {}{}{}'.format('\033[4;32m', name, '\033[m'))
+print('o meu nome é {}{}{}'.format('\033[;32m', name, '\033[m'))
 print()
 
 none = '\033[m'
@@ -36,7 +36,6 @@ background = {
     'cyan': '\033[46m',
     'gray': '\033[47m',
     'white': '\033[107m'
-    
 }
 
-print('embora os {}sábios{} no fim da {}vida{} saibam que é a {}treva{} que perdura'.format(style['underline'], none, text['green'], none, text['red'], none))
+print('embora os {}sábios{} no fim da {}vida{} saibam que é a {}treva{} que perdura'.format(style['underline'], none, text['magenta'], none, background['red'], none))

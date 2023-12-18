@@ -2,7 +2,7 @@ n = 'mau'
 x = float(input('digite um numero: '))
 y = float(input('digite outro numero: '))
 
-a= x+y
+a=x+y
 s=x-y
 m=x*y
 d=x/y
