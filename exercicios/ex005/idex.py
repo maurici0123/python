@@ -2,7 +2,7 @@ print('hello\033[1;31;107m world! \033[m')
 print()
 
 name = 'mau'
-print('o meu nome é {}{}{}'.format('\033[;32m', name, '\033[m'))
+print('o meu nome é {}{}{}'.format('\033[32m', name, '\033[m'))
 print()
 
 none = '\033[m'

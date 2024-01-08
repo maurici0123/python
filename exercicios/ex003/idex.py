@@ -14,7 +14,7 @@ print(len(text)) # comprimento da string
 print(text.count('a')) # qunatidade que tem a letra a
 print(text.count('o',3,43))# qunatidade que tem a letra o da 3º ate a 43º
 print(text.find('boa')) # posiçao que começa o parametro
-print(text.find('furia')) # posiçao que começa o parametro
+print(text.find('furia')) # posiçao que começa o parametro(nao tem)
 print('ternura' in text) # se tem ou nao o parametro
 print(text.replace('adentre', 'entre')) # troca uma string pela outra
 print(text.upper()) # deixa em caps lock
