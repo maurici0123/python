@@ -35,12 +35,10 @@ for x in range(qtd_materia):
 
 for i, nota in enumerate(medias):
     if (nota <= 3):
-        print(f'O aluno {nome} está em \033[31mreprovado\033[m na {
-              i+1}º matéria')
+        print(f'O aluno {nome} está \033[31mreprovado\033[m na {i+1}º matéria')
         print(f'NOTA: {nota:.2f}')
     elif (nota < 7):
-        print(f'O aluno {nome} está em \033[33mrecuperação\033[m na {
-              i+1}º matéria')
+        print(f'O aluno {nome} está de \033[33mrecuperação\033[m na {i+1}º matéria')
         print(f'NOTA: {nota:.2f}')
     else:
         print(f'O aluno {nome} está \033[32maprovado\033[m na {i+1}º matéria')
